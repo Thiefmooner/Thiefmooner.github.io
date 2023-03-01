@@ -14,7 +14,7 @@ ul {
 }
 body {
 	overflow-x:hidden;     
-	background-color:#0d1117;
+	background-color:white;
 	font-family: 'Helvetica Neue', 'Helvetica', 'Microsoft Yahei', sans-serif;
 }
 @media (min-width: 601px){ 
@@ -22,13 +22,14 @@ body {
 
 .top_info {
   width: 100%;
-  height: 600px;
+  height: 700px;
   position: relative;
   
 }
 
 .top_info:after {
-	background-color: #2aae67;
+	/*background-color: black;*/
+	background: linear-gradient(to bottom,black,white);
 	content: '';
 	width: 160%;
 	height: 650px;
@@ -75,7 +76,7 @@ body {
 	width: 180px;
 	margin-top: 30px;
 	border-radius: 6px;
-	background-color: black;
+	background-color:#fff5ee;
 	box-shadow: 0px 0px 5px 5px rgba(152,152,152,0.07);/* 设置一个阴影 颜色 透明度 */
 	cursor: pointer;   /* 鼠标在此处的效果为“小手”样式 */
 	margin-right: auto;
@@ -151,6 +152,9 @@ body {
 	margin-left: auto;
 	padding-top: 120px;
 }
+.top_info .logo img{
+	border-radius: 150px
+}
 .top_info .logo img:hover {
 opacity : 0.8;
 }
@@ -182,9 +186,9 @@ opacity : 0.8;
 	text-align: center;
 }
 .down {
-	background-color: black;
+	background: linear-gradient(to bottom,white,black);
 	text-align: center;
-	height: 50px;
+	height: 20px;
 	width: 100%;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -231,7 +235,7 @@ a:active {
 
 <div class="top_info">
   <div class="login"><a href="#">ThiefMooner</a></div>
-  <div class="logo"><img src="./pic/Snipaste_2023-02-27_16-13-02.png" width="300px" height="300px"></a></div>
+  <div class="logo"><img src="./pic/Snipaste_2023-02-27_16-13-02.png" width="300px" height="300px" border-radius: 150px></a></div>
   <div class="top-text">
     E-mail:moonthief555@126.com<br>
     Sorry Sir<br>
